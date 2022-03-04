@@ -13,11 +13,10 @@ To get the most out of this tutorial you should already have a basic understandi
 # JavaScript
 # TypeScript
 
+# Simple deployment options
+Before fully deploying your application, you can test the process, build configuration, and deployed behavior by using one of these interim techniques.
 
-## Running end-to-end tests
+Building and serving from disk
+During development, you typically use the ng serve command to build, watch, and serve the application from local memory, using webpack-dev-server. When you are ready to deploy, however, you must use the ng build command to build the application and deploy the build artifacts elsewhere.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Both ng build and ng serve clear the output folder before they build the project, but only the ng build command writes the generated build artifacts to the output folder.
