@@ -23,3 +23,4 @@ Building and serving from disk
 During development, you typically use the ng serve command to build, watch, and serve the application from local memory, using webpack-dev-server. When you are ready to deploy, however, you must use the ng build command to build the application and deploy the build artifacts elsewhere.
 
 Both ng build and ng serve clear the output folder before they build the project, but only the ng build command writes the generated build artifacts to the output folder.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
