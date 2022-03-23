@@ -16,6 +16,8 @@ JavaScript (JS) es un lenguaje de programación ligero, interpretado, o compilad
 Esta sección está dedicada al lenguaje JavaScript en sí, y no a las partes que son específicas de las páginas web u otros entornos host. Para información acerca de APIs específicas para páginas Web, consulta APIs Web y DOM.
 # TypeScript
 
+JavaScript (also known as ECMAScript) started its life as a simple scripting language for browsers. At the time it was invented, it was expected to be used for short snippets of code embedded in a web page — writing more than a few dozen lines of code would have been somewhat unusual. Due to this, early web browsers executed such code pretty slowly. Over time, though, JS became more and more popular, and web developers started using it to create interactive experiences.
+
 # Simple deployment options
 Before fully deploying your application, you can test the process, build configuration, and deployed behavior by using one of these interim techniques.
 
